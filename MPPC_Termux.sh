@@ -1,7 +1,4 @@
-#!/bin/sh
-if [ $1 = "addalias" ] then
-[ -z "$2" ] && echo 'alias mcresconv="bash '$0'"' >> .bashrc || echo 'alias '$2'="bash '$0'"' >> .bashrc
-fi
+#!/bin/bash
 vmin=$1
 vmaj=$2
 [ -z "$1" ] && vmin=0
