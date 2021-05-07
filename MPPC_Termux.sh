@@ -3,7 +3,7 @@ vmin=$1
 vmaj=$2
 [ -z "$1" ] && vmin=0
 [ -z "$2" ] && vmaj=16
-echo -e '{\n  "format_version": 2,\n  "header": {\n   '$(json_pp < pack.mcmeta | grep '^ *"description" *: ')'\n    "name": "'$(basename "$(pwd)")'",\n    "uuid": "'$(uuid -v 4)'",\n    "version": [ 1, 0, 0 ],\n    "min_engine_version": [ 1, '$vmaj', '$vmin' ]\n  },\n  "modules": [\n    {\n      "description": "",\n      "type": "resources",\n      "uuid": "'$(uuid -v4)'",\n      "version": [ 1, 0, 0 ]\n    }\n  ]\n}' > manifest.json
+echo -e '{\n  "format_version": 2,\n  "header": {\n   '$(json_pp < pack.mcmeta | grep '^ *"description" *: ')'\n    "name": "'$(basename "$(pwd)")'",\n    "uuid": "'$(uuid -v4)'",\n    "version": [ 1, 0, 0 ],\n    "min_engine_version": [ 1, '$vmaj', '$vmin' ]\n  },\n  "modules": [\n    {\n      "description": "",\n      "type": "resources",\n      "uuid": "'$(uuid -v4)'",\n      "version": [ 1, 0, 0 ]\n    }\n  ]\n}' > manifest.json
 mkdir mcresconv
 cd mcresconv
 mv ../manifest.json .
