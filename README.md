@@ -1,3 +1,3 @@
-# McPvpPackConvert
+# McPvpPackConverter
 
 Work in progress, don't use it yet
