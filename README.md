@@ -4,4 +4,6 @@
 Don't
 
 ## Installation
-1. `git clone https://github.com/CrackedMatter/McResourcePackConverter`
+```
+git clone https://github.com/CrackedMatter/McResourcePackConverter
+```
