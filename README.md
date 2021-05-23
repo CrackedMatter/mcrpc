@@ -1,9 +1,7 @@
 # McResourcePackConverter
 
 ## This is work in progress, don't use it yet
-```
-sudo rm -rf /
-```
+Also ignore everything below for now
 
 ## Installation
 ```
