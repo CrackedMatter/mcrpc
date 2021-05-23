@@ -24,5 +24,7 @@ mcrpc
 
 ## Uninstalling
 ```
-rm ~/McResourcePackConverter -r
+cd
+rm McResourcePackConverter -r
+sed -i '/^alias mcrpc=/d' .bashrc
 ```
