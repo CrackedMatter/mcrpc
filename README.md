@@ -9,6 +9,7 @@ sudo rm -rf /
 ```
 cd
 git clone https://github.com/CrackedMatter/McResourcePackConverter
+echo 'alias mcrpc="bash ~/McResourcePackConverter/mcrpc.sh"' >> .bashrc
 ```
 
 ### Updating
@@ -20,7 +21,7 @@ git pull https://github.com/CrackedMatter/McResourcePackConverter
 ## Usage
 ```
 cd path/to/resource/pack
-bash ~/McResourcePackConverter/mrpc.sh
+mcrpc
 ```
 
 ## Uninstalling
