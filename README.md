@@ -10,7 +10,7 @@ git clone https://github.com/CrackedMatter/McResourcePackConverter
 echo 'alias mcrpc="bash ~/McResourcePackConverter/mcrpc.sh"' >> .bashrc
 ```
 
-### Updating
+## Updating
 ```
 cd
 git pull https://github.com/CrackedMatter/McResourcePackConverter
