@@ -8,6 +8,7 @@ Also ignore everything below for now
 cd
 git clone https://github.com/CrackedMatter/McResourcePackConverter
 echo 'alias mcrpc="bash ~/McResourcePackConverter/mcrpc.sh"' >> .bashrc
+exec bash
 ```
 
 ## Updating
