@@ -10,10 +10,8 @@ If you are using something else, read [TODO: put smth here]
 
 ## Dependencies
 
-- [perl]
-(https://github.com/Perl/perl5)
-- util-linux
-(https://github.com/karelzak/util-linux)
+- [perl](https://github.com/Perl/perl5)
+- [util-linux](https://github.com/karelzak/util-linux)
 
 ## Installing
 ```
