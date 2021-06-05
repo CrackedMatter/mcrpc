@@ -56,4 +56,4 @@ pkg install perl
 pkg install ossp-uuid
 echo 'alias uuidgen="uuid -v4"' >> .bashrc
 ```
-3. Now continue with the [installation](README.md#installation)
+3. Now continue with the [installation](README.md#installing)
