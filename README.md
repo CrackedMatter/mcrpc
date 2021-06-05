@@ -5,8 +5,8 @@ Also ignore everything below for now
 
 A shell script that converts Minecraft resource packs from Java Edition to Bedrock Edition.
 Made for Unix-like systems (e.g. Linux or FreeBSD).
-The instructions below where made for Debian-based Linux distributions.
-If you are using something else, read [this](README.md#other-operating-systems)
+The instructions below where made for Linux distributions.
+If you are using something else, read [this](README.md#other-operating-systems).
 
 ## Dependencies
 
@@ -43,6 +43,17 @@ sed -i '/^alias mcrpc=/d' .bashrc
 
 ## Other operating systems
 
+Read this, if you are not using a Linux distribution.
 
+### Android
 
-###
+Follow these steps before installing McResourcePackConverter:
+
+1. Install Termux from F-Droid: https://f-droid.org/en/packages/com.termux/
+2. Open it and run these commands:
+```
+pkg install perl
+pkg install ossp-uuid
+echo 'alias uuidgen="uuid -v4"' >> .bashrc
+```
+3. Now continue with the [installation](README.md#installation)
