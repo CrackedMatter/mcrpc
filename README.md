@@ -40,3 +40,9 @@ cd
 rm McResourcePackConverter -rf
 sed -i '/^alias mcrpc=/d' .bashrc
 ```
+
+## Other operating systems
+
+
+
+###
