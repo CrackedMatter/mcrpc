@@ -1,7 +1,11 @@
-# McResourcePackConverter
-
 ## This is work in progress, don't use it yet
 Also ignore everything below for now
+
+# McResourcePackConverter
+
+A shell script that converts Minecraft resource packs from Java Edition to Bedrock Edition.
+Made for Unix-like systems (e.g. Linux or FreeBSD).
+The instructions below where made for Debian-based Linux distributions. If you are using something else, read [TODO: put smth here]
 
 ## Installation
 ```
