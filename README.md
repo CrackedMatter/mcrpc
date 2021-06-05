@@ -6,7 +6,7 @@ Also ignore everything below for now
 A shell script that converts Minecraft resource packs from Java Edition to Bedrock Edition.
 Made for Unix-like systems (e.g. Linux or FreeBSD).
 The instructions below where made for Debian-based Linux distributions.
-If you are using something else, read [this](https://github.com/CrackedMatter/McResourcePackConverter/blob/main/README.md#other-operating-systems)
+If you are using something else, read [this](README.md#other-operating-systems)
 
 ## Dependencies
 
