@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 vmin=$1
 vmaj=$2
 [ -z "$1" ] && vmin=0
