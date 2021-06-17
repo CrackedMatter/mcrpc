@@ -1,11 +1,13 @@
 ## This is work in progress, don't use it yet
 Also ignore everything below for now
 
-# McResourcePackConverter
+# MCRPC
+
+(Minecraft resource pack converter)
 
 A shell script that converts Minecraft resource packs from Java Edition to Bedrock Edition.
 Made for Unix-like systems (e.g. Linux or FreeBSD).
-The instructions below where made for Linux distributions.
+The instructions below where made for GNU/Linux.
 If you are using something else, read [this](README.md#other-operating-systems).
 
 ## Dependencies
@@ -43,7 +45,7 @@ sed -i '/^alias mcrpc=/d' .bashrc
 
 ## Other operating systems
 
-Read this, if you are not using a Linux distribution.
+Read this, if you are not using GNU/Linux.
 
 ### Android
 
