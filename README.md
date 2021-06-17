@@ -18,16 +18,16 @@ If you are using something else, read [this](README.md#other-operating-systems).
 ## Installing
 ```
 cd
-git clone https://github.com/CrackedMatter/McResourcePackConverter
-chmod +x ~/McResourcePackConverter/mcrpc.sh
-echo 'alias mcrpc="~/McResourcePackConverter/mcrpc.sh"' >> .bashrc
-exec bash
+git clone https://github.com/CrackedMatter/mcrpc
+chmod +x ~/mcrpc/mcrpc.sh
+echo 'alias mcrpc="~/mcrpc/mcrpc.sh"' >> .bashrc
+exec sh
 ```
 
 ## Updating
 ```
 cd
-git pull https://github.com/CrackedMatter/McResourcePackConverter
+git pull https://github.com/CrackedMatter/mcrpc
 ```
 
 ## Usage
@@ -49,7 +49,7 @@ Read this, if you are not using GNU/Linux.
 
 ### Android
 
-Follow these steps before installing McResourcePackConverter:
+Follow these steps before installing MCRPC:
 
 1. Install Termux from F-Droid: https://f-droid.org/en/packages/com.termux/
 2. Open it and run these commands:
