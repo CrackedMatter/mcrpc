@@ -48,7 +48,7 @@ sed -i '/^alias mcrpc=/d' .bashrc
 
 ## Troubleshooting
 
-### Android
+### Detailed instructions for Android
 
 Follow these steps before installing MCRPC:
 
@@ -60,3 +60,11 @@ pkg install ossp-uuid
 echo 'alias uuidgen="uuid -v4"' >> .bashrc
 ```
 3. Now continue with the [installation](README.md#installing)
+
+### uuidgen: command not found
+
+1. Look up a command that generates a V4 UUID
+2. Install the package if necessary
+3. Create an alias named "uuidgen" that runs this command.
+If you are using Bash you can create an
+TODO
