@@ -3,8 +3,6 @@ Also ignore everything below for now
 
 # MCRPC
 
-TODO: fix this damn readme
-
 (Minecraft resource pack converter)
 
 A shell script that converts Minecraft resource packs from Java Edition to Bedrock Edition.
@@ -17,7 +15,8 @@ Made for Unix-like systems.
 
 Run `uuidgen` before and after installing util-linux.
 You only have to install util-linux if uuidgen doesn't work.
-If uuidgen still doesn't work after util-linux, read the [troubleshooting section](README.md#troubleshooting).
+If uuidgen still doesn't work after installing util-linux, read the
+[troubleshooting section](README.md#troubleshooting).
 
 ## Installation
 ```
