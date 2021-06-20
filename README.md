@@ -8,16 +8,18 @@ TODO: fix this damn readme
 (Minecraft resource pack converter)
 
 A shell script that converts Minecraft resource packs from Java Edition to Bedrock Edition.
-Made for Unix or Unix-like systems.
-The instructions below where made for GNU/Linux.
-If you are using something else, read [this](README.md#other-operating-systems).
+Made for Unix-like systems.
 
 ## Dependencies
 
 - [perl](https://github.com/Perl/perl5)
 - [util-linux](https://github.com/karelzak/util-linux)
 
-## Installing
+Run `uuidgen` before and after installing util-linux.
+You only have to install util-linux if uuidgen doesn't work.
+If uuidgen still doesn't work after util-linux, read the [troubleshooting section](README.md#troubleshooting).
+
+## Installation
 ```
 cd
 git clone https://github.com/CrackedMatter/mcrpc
@@ -45,9 +47,7 @@ rm McResourcePackConverter -rf
 sed -i '/^alias mcrpc=/d' .bashrc
 ```
 
-## Other operating systems
-
-Read this, if you are not using GNU/Linux.
+## Troubleshooting
 
 ### Android
 
