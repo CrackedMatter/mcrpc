@@ -3,6 +3,8 @@ Also ignore everything below for now
 
 # MCRPC
 
+TODO: fix this damn readme
+
 (Minecraft resource pack converter)
 
 A shell script that converts Minecraft resource packs from Java Edition to Bedrock Edition.
