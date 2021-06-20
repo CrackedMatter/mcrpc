@@ -66,5 +66,6 @@ echo 'alias uuidgen="uuid -v4"' >> .bashrc
 1. Look up a command that generates a V4 UUID
 2. Install the package if necessary
 3. Create an alias named "uuidgen" that runs this command.
-If you are using Bash you can create an
-TODO
+If you are using Bash you can create an alias by adding 
+`alias uuidgen="<some command>"` to your ".bashrc" file.
+If you are using a different shell, look up how to create aliases for that shell.
