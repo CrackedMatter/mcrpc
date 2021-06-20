@@ -69,3 +69,7 @@ echo 'alias uuidgen="uuid -v4"' >> .bashrc
 If you are using Bash you can create an alias by adding 
 `alias uuidgen="<some command>"` to your ".bashrc" file.
 If you are using a different shell, look up how to create aliases for that shell.
+
+### Aliases don't work
+
+1. Run `echo $0` to check which shell you are using.
