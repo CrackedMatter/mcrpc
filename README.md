@@ -10,7 +10,7 @@ Made for Unix-like systems.
 
 ## Dependencies
 
-- [perl](https://github.com/Perl/perl5)
+- [jq](https://github.com/stedolan/jq)
 - [util-linux](https://github.com/karelzak/util-linux)
 
 Run `uuidgen` before and after installing util-linux.
