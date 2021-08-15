@@ -20,17 +20,28 @@ If uuidgen still doesn't work after installing util-linux, read the
 
 ## Installation
 ```
-cd
 git clone https://github.com/CrackedMatter/mcrpc
-chmod +x ~/mcrpc/mcrpc.sh
-echo 'alias mcrpc="~/mcrpc/mcrpc.sh"' >> .bashrc
-exec sh
+sudo install mcrpc/mcrpc.sh /usr/local/bin/mcrpc
+```
+or
+```
+sudo curl -sL https://raw.githubusercontent.com/CrackedMatter/mcrpc/main/mcrpc.sh -o /usr/local/bin/mcrpc
+sudo chmod +x /usr/local/bin/mcrpc
 ```
 
-## Updating
+### Updating
 ```
-cd
 git pull https://github.com/CrackedMatter/mcrpc
+sudo install mcrpc/mcrpc.sh /usr/local/bin/mcrpc
+```
+or
+```
+sudo curl -sL https://raw.githubusercontent.com/CrackedMatter/mcrpc/main/mcrpc.sh -o /usr/local/bin/mcrpc
+```
+
+### Uninstalling
+```
+sudo rm /usr/local/bin/mcrpc -rf
 ```
 
 ## Usage
@@ -39,14 +50,9 @@ cd path/to/resource/pack
 mcrpc
 ```
 
-## Uninstalling
-```
-cd
-rm McResourcePackConverter -rf
-sed -i '/^alias mcrpc=/d' .bashrc
-```
-
 ## Troubleshooting
+
+TODO: Fix this messed up section
 
 ### Detailed instructions for Android
 
@@ -55,8 +61,7 @@ Follow these steps before installing MCRPC:
 1. Install Termux from F-Droid: https://f-droid.org/en/packages/com.termux/
 2. Open it and run these commands:
 ```
-pkg install perl
-pkg install ossp-uuid
+pkg install jq ossp-uuid
 echo 'alias uuidgen="uuid -v4"' >> .bashrc
 ```
 3. Now continue with the [installation](README.md#installing)
@@ -65,11 +70,5 @@ echo 'alias uuidgen="uuid -v4"' >> .bashrc
 
 1. Look up a command that generates a V4 UUID
 2. Install the package if necessary
-3. Create an alias named "uuidgen" that runs this command.
-If you are using Bash you can create an alias by adding 
-`alias uuidgen="<some command>"` to your ".bashrc" file.
-If you are using a different shell, look up how to create aliases for that shell.
-
-### Aliases don't work
-
-1. Run `echo $0` to check which shell you are using.
+3. Create an alias in the script named "uuidgen" that runs this command by adding 
+`alias uuidgen="<some command>"` at the beginning of the script.
