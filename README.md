@@ -1,6 +1,8 @@
 ## This is work in progress, don't use it yet
 Also ignore everything below for now
 
+TODO: Completely redo everything, this programm sucks
+
 # MCRPC
 
 (Minecraft resource pack converter)
