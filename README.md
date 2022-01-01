@@ -1,6 +1,6 @@
 ## This is work in progress, don't use it yet
 
-TODO: Completely redo everything, this programm sucks
+TODO: Completely redo everything, this program sucks
 
 # MCRPC
 
